@@ -1,0 +1,24 @@
+div {
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+#primary {
+  padding-block: 20px;
+
+  /*nesting css*/
+  div:nth-child(2) {
+    margin-inline: auto; /*apenas a margens esquerda e direita*/
+  }
+}
+div:nth-child(3) {
+  justify-self: end;
+}
+
+#secondary {
+  padding-block: 14px; /*espaçoes em cima e baixo*/
+  border: solid 1px var(--stroke-color);
+  border-inline: none; /*só as laterais*/
+  justify-content: space-between; /*espaço entre os intems do meunu*/
+}
