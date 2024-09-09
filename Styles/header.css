@@ -17,7 +17,7 @@ div:nth-child(3) {
 }
 
 #secondary {
-  padding-block: 14px; /*espaçoes em cima e baixo*/
+  padding-block: 14px; /*espaçoes em cima e em baixo*/
   border: solid 1px var(--stroke-color);
   border-inline: none; /*só as laterais*/
   justify-content: space-between; /*espaço entre os intems do meunu*/
