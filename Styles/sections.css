@@ -63,9 +63,8 @@ section header {
 
   grid-area: weekly;
   &>div {
-    grid-template-columns: repeat(4, 312px);
-    
-
+    grid-template-columns: repeat(4, 292px);
+    justify-content: space-between;
   }
 
   img {
